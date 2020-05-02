@@ -12,5 +12,5 @@ biography: |-
 
 
 
-  Follow her to build your brand identity.
+  Follow this instagram to build your brand identity.
 ---
