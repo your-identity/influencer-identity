@@ -19,10 +19,6 @@ disableKinds = [
   appleicon = "apple.png"
 
   [params.personal]
-    name = "Jane Smith"
-    avatar = "jane.jpg"
-    position = "Head of Design"
-    livesIn = "[New York City, USA](https://goo.gl/maps/ZvGN7uzDeVLgE8kR8)"
     scope = [
         "UX for [youridentity.io](https://your-identity.netlify.app)",
         "[Influencer and model](https://www.instagram.com/youridentity.io/)",
