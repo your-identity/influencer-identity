@@ -38,7 +38,7 @@
                 <h2 class="position">{{ . | markdownify }}</h2>
               {{ end }}
 
-              {{ with .Site.Params.personal.scope }}
+              {{ with .Params.scope }}
               <ul>
                 {{ range . }}
                   <li>{{ . | markdownify }}</li>
@@ -46,7 +46,7 @@
               </ul>
               {{ end }}
 
-              {{ with .Site.Params.personal.biography }}
+              {{ with .Params.biography }}
                 <span class="biography">{{ . | markdownify }}</span>
               {{ end }}
             </header>

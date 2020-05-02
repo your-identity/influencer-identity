@@ -4,8 +4,8 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
-  - name: 'Landing Page'
-    label: 'Blog'
+  - name: 'index'
+    label: 'Landing Page'
     folder: 'content/'
     create: false
     slug: '_index.md'
@@ -16,3 +16,5 @@ collections:
       - { label: 'Job Title', name: 'position', widget: 'string' }
       - { label: 'Location', name: 'livesIn', widget: 'string' }
       - { label: 'Avatar', name: 'avatar', widget: 'image' }
+      - { label: 'Headlines', name: 'scope', widget: 'list' }
+      - { label: 'Biography', name: 'biography', widget: 'markdown' }
