@@ -480,7 +480,7 @@ button,
 /* Main */
 #main {
   position: relative;
-  max-width: 60%;
+  max-width: 100%;
   min-width: 27em;
   padding: 4.5em 3em 3em 3em ;
   background: #ffffff;

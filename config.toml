@@ -1,3 +1,57 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My Hugo Site"
+title = "Influencer identity"
+theme = "identity"
+
+disableKinds = [
+	"page", 
+	"section", 
+	"taxonomy", 
+	"taxonomyTerm", 
+	"RSS", 
+	"sitemap", 
+	"robotsTXT", 
+]
+
+[params]
+  favicon_ico = "icons/favicon.ico"
+  favicon_ico_sizes = "16x16 32x32"
+  appleicon = "apple.png"
+
+  [params.personal]
+    name = "Jane Smith"
+    avatar = "jane.jpg"
+    position = "Head of Design"
+    livesIn = "[New York City, USA](https://goo.gl/maps/ZvGN7uzDeVLgE8kR8)"
+    scope = [
+        "UX for [youridentity.io](https://your-identity.netlify.app)",
+        "[Influencer and model](https://www.instagram.com/youridentity.io/)",
+        "Ambassator [@youridentity](https://www.instagram.com/youridentity.io/)"
+      ]
+    biography = """Jane Smith is a passionate designer, blogger and influencer, looking to grow her online presence. \n\n She started working for [youridentity.io](https://your-identity.netlify.app) in 2018 and is now head designer at the company. \n\n Follow her instagram to connect!"""
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://www.instagram.com/youridentity.io/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram"
+    link = "https://www.instagram.com/youridentity.io/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://www.instagram.com/youridentity.io/"
+    target = "_blank"
+
+  [params.footer]
+    copyright = "youridentity.io"
+
+  [[params.credits]]
+    title = "youridentity.io"
+    text = "Design by"
+    link = "https://your-identity.netlify.app"
