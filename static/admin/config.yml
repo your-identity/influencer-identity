@@ -16,5 +16,5 @@ collections:
       - { label: 'Job Title', name: 'position', widget: 'string' }
       - { label: 'Location', name: 'livesIn', widget: 'string' }
       - { label: 'Avatar', name: 'avatar', widget: 'image' }
-      - { label: 'Headlines', name: 'scope', widget: 'list' }
+      - { label: 'Headlines', name: 'scope', widget: 'list', field: {name: 'hedaline', label: 'Headline', widget: 'markdown'}}
       - { label: 'Biography', name: 'biography', widget: 'markdown' }
