@@ -7,7 +7,7 @@ collections:
   - name: 'Landing Page'
     label: 'Blog'
     folder: 'content/'
-    create: true
+    create: false
     slug: '_index.md'
     editor:
       preview: false
